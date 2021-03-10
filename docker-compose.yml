@@ -1,0 +1,8 @@
+# Make sure you copy oberviewer_config.py to the input directory
+
+overviewer:
+  build: .
+  container_name: overviewer
+  volumes:
+    - "/home/relja/mcdata/world:/var/in"
+    - "/media/data/overviewer/Minecraft-Overviewer/out/Novi:/var/out"   
