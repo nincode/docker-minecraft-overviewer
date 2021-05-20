@@ -2,7 +2,7 @@
 
 overviewer:
   build: .
-  container_name: overviewer
+  container_name: minecraft-overviewer
   volumes:
-    - "/home/relja/mcdata/world:/var/in"
-    - "/media/data/overviewer/Minecraft-Overviewer/out/Novi:/var/out"   
+    - "/media/dockerdata/minecraft/mcdata/world:/var/in"
+    - "/media/dockerdata/overviewer/Minecraft-Overviewer/out/Novi:/var/out"   

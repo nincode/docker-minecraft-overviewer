@@ -35,4 +35,3 @@ RUN VERSION=1.16.5 \
 
 ENV NODE_ENV=production
 CMD cd Minecraft-Overviewer && python3 overviewer.py --config=/var/in/overviewer_config.py
-
